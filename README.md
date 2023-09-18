@@ -15,13 +15,13 @@ This repository builds a [JupyterHub](https://jupyter.org/hub) environment with 
     * Pull Requests trigger image building without pushing to DockerHub
 
 ```bash
-git clone https://github.com/UW-geophysics-edu/ess314-2021-image
+git clone https://github.com/UW-geophysics-edu/ess314-image
 cd docker-template
 git checkout dev
 # make sure dev branch is up-to-date with master
 git merge master
 # modify environment.yml or other files in binder/
-git commit -a -m "modified binder/environment to my liking"
+git commit -a -m "modified binder/environment to my liking."
 git push
 # go to github.com and create a pull request to merge dev changes into master
 ```
@@ -36,8 +36,8 @@ docker compose down
 
 ### Pull image from respository
 
-* From [DockerHub](https://hub.docker.com/r/uwessds/ess314-2021-image/tags): `docker pull uwessds/ess314-2021-image:latest`
-<!-- * From [Quay](https://quay.io/repository/UW-geophysics-edu/ess314-2021-image?tab=tags): `docker pull quay.io/uwessds/ess314-2021-image:latest`  -->
+* From [DockerHub](https://hub.docker.com/r/uwessds/ess314-image/tags): `docker pull uwessds/ess314-image:latest`
+<!-- * From [Quay](https://quay.io/repository/UW-geophysics-edu/ess314-image?tab=tags): `docker pull quay.io/uwessds/ess314-image:latest`  -->
 
 ### Point to a specific tagged image in JupyterHub config
 
