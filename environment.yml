@@ -11,3 +11,6 @@ dependencies:
   - scipy
   - pip
   - obspy
+  - pyrocko
+  - tqdm
+  - harmonica
